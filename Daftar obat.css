@@ -1,0 +1,229 @@
+body {
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  background-color:#42B93F;
+  color:black;
+  height: 90px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+
+.header-list li {
+  float: left;
+  padding: 33px 20px;
+}
+
+.main {
+  padding: 20px 5px;
+}
+
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  font-size: 30px;
+}
+
+.section-title p{
+  font-size: 15px;
+}
+
+.section-title h3{
+  font-size: 15px;
+}
+
+.contents-item {
+  float: left;
+  margin-right: 40px;
+}
+
+.contents-item p {
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+.contact-form {
+  padding-top: 20px;
+}
+
+/* Tambahkan CSS untuk tags <input> dan <textarea> */
+input, textarea {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+
+/* Tambahkan CSS untuk contact-submit */
+.contact-submit {
+  background-color: #42B93F;
+  color:black;
+}
+
+.footer {
+  background-color: #42B93F;
+  color: rgb(0, 0, 0);
+  height: 120px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
+
+.footer-contact {
+  float: right;
+}
+
+.footer-contact p {
+  padding-bottom: 10px;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown:hover .isi-dropdown {
+  display: block;
+}
+
+.isi-dropdown li:hover {
+  color: #fff !important;
+}
+
+.isi-dropdown {
+  position: absolute;
+  display: none;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  background-color: #f9f9f9;
+}
+
+.isi-dropdown li {
+  color: #3c3c3c !important;
+}
+
+.isi-dropdown li:hover {
+  color: #232323 !important;
+  background: #f3f3f3 !important;
+}
+
+
+
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+a {
+  color: Blue;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
